@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
     <div className="bg-[#ECF5FF] mt-10 md:mt-20">
-      <div className="max-w-[1400px] mx-auto">
+      <div className="max-w-[1350px] mx-auto">
         <footer className="footer pl-10 md:pl-5 lg:pl-0 py-10 text-gray-600">
           <aside>
-            <div className="flex gap-5 justify-center items-center">
-              <img className="w-10" src="/public/icon/logo.png" alt="logo" />
-              <p className="text-3xl">Heritage Nest</p>
+            <div className="flex gap-3 justify-center items-center">
+              <img className="w-8" src="/public/icon/logo.png" alt="logo" />
+              <p className="text-3xl font-bold">Heritage Nest</p>
             </div>
 
             <p>
@@ -71,10 +71,26 @@ const Footer = () => {
           </aside>
           <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             <p>Follow Us</p>
-            <img className="" src="/public/icon/twitter.png" alt="" />
-            <img className="" src="/public/icon/linkedin.png" alt="" />
-            <img className="" src="/public/icon/facebook.png" alt="" />
-            <img className="" src="/public/icon/hand.png" alt="" />
+            <img
+              className="cursor-pointer"
+              src="/public/icon/twitter.png"
+              alt=""
+            />
+            <img
+              className="cursor-pointer"
+              src="/public/icon/linkedin.png"
+              alt=""
+            />
+            <img
+              className="cursor-pointer"
+              src="/public/icon/facebook.png"
+              alt=""
+            />
+            <img
+              className="cursor-pointer"
+              src="/public/icon/hand.png"
+              alt=""
+            />
           </nav>
         </footer>
       </div>

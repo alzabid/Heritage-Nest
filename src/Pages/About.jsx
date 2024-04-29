@@ -3,7 +3,7 @@
 const About = () => {
     return (
         <div>
-            about
+            <img className="w-full object-cover object-center" src="/public/image/about.jpg" alt="" />
         </div>
     );
 };
