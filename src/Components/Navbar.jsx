@@ -12,7 +12,7 @@ const Navbar = () => {
         {/* 1st part */}
         <ul
           className={`md:flex md:items-center absolute md:static bg-[#a0c1e7] md:bg-transparent left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in  ${
-            open ? "top-[75px] left-0 " : "top-[75px] left-[-490px]"
+            open ? "top-[64px] left-0 " : "top-[64px] left-[-490px]"
           }`}
         >
           <li className="md:my-0 my-7">
@@ -26,7 +26,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="md:ml-8 md:my-0 my-7">
-            <Link to="/" className=" hover:text-green-500 duration-500">
+            <Link to="/about" className=" hover:text-green-500 duration-500">
               Service
             </Link>
           </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
         {/* 3rd part */}
         <ul
           className={`md:flex md:items-center absolute md:static bg-[#a0c1e7] md:bg-transparent left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in  ${
-            open ? "top-[335px] left-0 " : "top-[335px] left-[-490px]"
+            open ? "top-[225px] left-0 " : "top-[225px] left-[-490px]"
           }`}
         >
           <li className="md:ml-8 md:my-0 my-7">

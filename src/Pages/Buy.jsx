@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import Cards from "../Components/Cards";
 import PropertyCard from "../Components/PropertyCard";
 import Reviews from "../Components/Reviews";
@@ -6,12 +7,16 @@ import SearchCard from "../Components/SearchCard";
 const Buy = () => {
   return (
     <>
+      <Helmet>
+        <title>Heritage Nest || Buy</title>
+      </Helmet>
+      {/* <div className="flex"></div> */}
       <img
-        className="w-full object-cover object-center mb-44"
+        className="w-full min-h-[150px] object-cover object-center mb-44"
         src="/public/image/buy.jpg"
         alt=""
       />
-      <div className="relative max-w-7xl mx-auto">
+      <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-0">
         <SearchCard />
         <Cards />
         <div className="flex justify-between">
@@ -31,8 +36,6 @@ const Buy = () => {
           </p>
         </div>
         <PropertyCard />
-
-        <p className="text-3xl font-bold mb-8 text-center">Testimonials</p>
         <Reviews />
       </div>
     </>

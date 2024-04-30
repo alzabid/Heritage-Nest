@@ -139,7 +139,7 @@ const PropertyCard = () => {
 
             <div className=" relative px-6 py-4">
               <div className=" flex gap-2 justify-between pb-2">
-                <p className="bg-blue-100 px-2 py-1 text-sm rounded-lg">
+                <p className="bg-blue-50 px-2 py-1 text-sm rounded-lg">
                   Apartment
                 </p>
                 <div className=" flex gap-2 items-center">

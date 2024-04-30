@@ -14,6 +14,9 @@ import {
 const Team = () => {
   return (
     <>
+      <p className="md:text-2xl lg:text-3xl font-bold mb-8">
+        Discover the Faces Behind Our Success
+      </p>
       <Swiper
         slidesPerView={3}
         spaceBetween={65}
@@ -32,19 +35,17 @@ const Team = () => {
         className=" "
       >
         <SwiperSlide>
-         <img src="/public/image/member1.jpg" alt="" />
+          <img src="/public/image/member1.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-         <img src="/public/image/member2.jpg" alt="" />
+          <img src="/public/image/member2.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-         <img src="/public/image/member3.jpg" alt="" />
+          <img src="/public/image/member3.jpg" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-         <img src="/public/image/member3.jpg" alt="" />
+          <img src="/public/image/member3.jpg" alt="" />
         </SwiperSlide>
-       
-        
       </Swiper>
     </>
   );
