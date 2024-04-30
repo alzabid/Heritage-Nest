@@ -3,6 +3,7 @@ import Home from "../Pages/Home";
 import Layout from "../Layout";
 import ErrorPage from "../Pages/ErrorPage";
 import About from "../Pages/About/About";
+import Buy from "../Pages/Buy";
 
 const Router = createBrowserRouter([
   {
@@ -12,7 +13,11 @@ const Router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>,
+        element: <Home/>,
+      },
+      {
+        path: "/buy",
+        element: <Buy/>
       },
       {
         path: "/about",

@@ -3,7 +3,8 @@
 const Home = () => {
     return (
         <div>
-            HOme
+        
+            <video src=""></video>
         </div>
     );
 };

@@ -1,6 +1,6 @@
 import Reviews from "../../Components/Reviews";
 import Booking from "./Booking";
-import Cards from "./Cards";
+import Cards from "../../Components/Cards";
 import Solutions from "./Solutions";
 import Team from "./Team";
 

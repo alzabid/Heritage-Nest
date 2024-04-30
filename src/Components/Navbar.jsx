@@ -16,7 +16,7 @@ const Navbar = () => {
           }`}
         >
           <li className="md:my-0 my-7">
-            <a href="/" className=" hover:text-green-500 duration-500">
+            <a href="/buy" className=" hover:text-green-500 duration-500">
               Buy
             </a>
           </li>
