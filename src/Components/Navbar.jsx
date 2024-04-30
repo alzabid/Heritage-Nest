@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { RiMenuAddLine } from "react-icons/ri";
 import { CgMenuMotion } from "react-icons/cg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-
   let [open, setOpen] = useState(false);
 
   return (
@@ -16,29 +16,30 @@ const Navbar = () => {
           }`}
         >
           <li className="md:my-0 my-7">
-            <a href="/buy" className=" hover:text-green-500 duration-500">
+            <Link to="/buy" className=" hover:text-green-500 duration-500">
               Buy
-            </a>
+            </Link>
           </li>
           <li className="md:ml-8 md:my-0 my-7">
-            <a href="/" className=" hover:text-green-500 duration-500">
+            <Link to="/" className=" hover:text-green-500 duration-500">
               Sell
-            </a>
+            </Link>
           </li>
           <li className="md:ml-8 md:my-0 my-7">
-            <a href="/" className=" hover:text-green-500 duration-500">
+            <Link to="/" className=" hover:text-green-500 duration-500">
               Service
-            </a>
+            </Link>
           </li>
         </ul>
 
         {/* 2nd part */}
-
-        <img
-          className=" cursor-pointer w-8 py-2"
-          src="/public/icon/logo.png"
-          alt="EventHost"
-        />
+        <Link to="/">
+          <img
+            className=" cursor-pointer w-8 py-2"
+            src="/public/icon/logo.png"
+            alt="EventHost"
+          />
+        </Link>
 
         {/* 3rd part */}
         <ul
@@ -47,14 +48,14 @@ const Navbar = () => {
           }`}
         >
           <li className="md:ml-8 md:my-0 my-7">
-            <a href="/" className=" hover:text-green-500 duration-500">
+            <Link to="/" className=" hover:text-green-500 duration-500">
               Manage Rentals
-            </a>
+            </Link>
           </li>
           <li className="md:ml-8 md:my-0 my-7">
-            <a href="/" className=" hover:text-green-500 duration-500">
+            <Link to="/" className=" hover:text-green-500 duration-500">
               Sign In
-            </a>
+            </Link>
           </li>
         </ul>
 

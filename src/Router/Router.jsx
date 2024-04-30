@@ -4,6 +4,7 @@ import Layout from "../Layout";
 import ErrorPage from "../Pages/ErrorPage";
 import About from "../Pages/About/About";
 import Buy from "../Pages/Buy";
+import Details from "../Pages/Details";
 
 const Router = createBrowserRouter([
   {
@@ -13,11 +14,15 @@ const Router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home/>,
+        element: <Home />,
       },
       {
         path: "/buy",
-        element: <Buy/>
+        element: <Buy />,
+      },
+      {
+        path: "/details",
+        element: <Details/>
       },
       {
         path: "/about",

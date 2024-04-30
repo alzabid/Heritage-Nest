@@ -4,7 +4,7 @@ const Cards = () => {
     return (
       <div className="">
         <div className="flex justify-center items-center">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 my-10">
+          <div className=" max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 my-10">
             {/* 1 */}
             <div className="card-body w-72 bg-[#FDF0E7]">
               <h1 className="text-4xl font-bold text-[#D95D0F]">2k+</h1>
