@@ -1,6 +1,7 @@
 import Reviews from "../../Components/Reviews";
 import Booking from "./Booking";
 import Cards from "./Cards";
+import Solutions from "./Solutions";
 import Team from "./Team";
 
 const About = () => {
@@ -13,6 +14,8 @@ const About = () => {
       />
       <div className="max-w-7xl mx-auto">
         <Cards />
+        <Solutions/>
+
         <p className="text-3xl font-bold mb-8">
           Discover the Faces Behind Our Success
         </p>
