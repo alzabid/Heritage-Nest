@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
     <div className="bg-[#ECF5FF] mt-10 md:mt-20">
-      <div className="max-w-[1350px] mx-auto">
+      <div className="max-w-7xl mx-auto">
         <footer className="footer pl-10 md:pl-5 lg:pl-0 py-10 text-gray-600">
           <aside>
             <div className="flex gap-3 justify-center items-center">
               <img className="w-8" src="/icon/logo.png" alt="logo" />
-              <p className="text-3xl font-bold">Heritage Nest</p>
+              <p className="text-3xl font-semibold">Heritage Nest</p>
             </div>
 
             <p>
