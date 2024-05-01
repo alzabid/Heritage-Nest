@@ -5,7 +5,7 @@ const Solutions = () => {
       <div>
         <div className="relative flex flex-col lg:flex-row items-center mb-10 md:mb-44 lg:mb-52">
           {/* image */}
-          <img className="rounded-lg" src="/public/image/about2.jpg" alt="" />
+          <img className="rounded-lg" src="/image/about2.jpg" alt="" />
           {/* text */}
           <div className=" md:absolute  lg:right-0 md:top-[300px] lg:top-[342px] p-6 md:p-8 md:mx-8 lg:mx-0 lg:w-[500px] md:space-y-4 rounded-md bg-[#ECF5FF]">
             <p className="text-sm md:text-base text-[#F06711] font-medium">
@@ -24,7 +24,7 @@ const Solutions = () => {
 
         <div className="relative flex flex-col lg:flex-row-reverse items-center mb-10 md:mb-44 lg:mb-52">
           {/* image */}
-          <img className="rounded-lg" src="/public/image/about3.jpg" alt="" />
+          <img className="rounded-lg" src="/image/about3.jpg" alt="" />
           {/* text */}
           <div className=" md:absolute  lg:left-0 md:top-[300px] lg:top-[342px] p-6 md:p-8 md:mx-8 lg:mx-0 lg:w-[500px] md:space-y-4 rounded-md bg-[#ECF5FF]">
             <p className="text-sm md:text-base text-[#F06711] font-medium">

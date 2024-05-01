@@ -53,16 +53,16 @@ const Team = () => {
       <div className="slider-container">
         <Slider {...settings}>
           <div>
-            <img className="w-full" src="/public/image/member1.jpg" alt="" />
+            <img className="w-full" src="/image/member1.jpg" alt="" />
           </div>
           <div>
-            <img className="w-full" src="/public/image/member2.jpg" alt="" />
+            <img className="w-full" src="/image/member2.jpg" alt="" />
           </div>
           <div>
-            <img className="w-full" src="/public/image/member3.jpg" alt="" />
+            <img className="w-full" src="/image/member3.jpg" alt="" />
           </div>
           <div>
-            <img className="w-full" src="/public/image/member2.jpg" alt="" />
+            <img className="w-full" src="/image/member2.jpg" alt="" />
           </div>
         </Slider>
       </div>

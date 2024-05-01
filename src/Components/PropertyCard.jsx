@@ -77,12 +77,12 @@ const PropertyCard = () => {
           <div className="relative">
             <img
               className="object-cover object-center  w-full h-56"
-              src="/public/image/Property2.jpg"
+              src="/image/Property2.jpg"
               alt="image"
             />
             <button className=" absolute bottom-4 left-4 flex justify-center items-center gap-2 bg-white px-2 py-1 text-sm rounded-lg ">
               <div>
-                <img src="/public/icon/gallery.png" alt="" />
+                <img src="/icon/gallery.png" alt="" />
               </div>
               <p className="text-sm md:text-base">20</p>
             </button>
@@ -93,7 +93,7 @@ const PropertyCard = () => {
               <p className="bg-blue-100 px-2 py-1 text-sm">Apartment</p>
               <div className=" flex gap-2 items-center">
                 <span>
-                  <img src="/public/icon/rectangle.png" alt="" />
+                  <img src="/icon/rectangle.png" alt="" />
                 </span>
                 <p className="text-sm md:text-base font-semibold">
                   Ready to Move
@@ -109,7 +109,7 @@ const PropertyCard = () => {
                 <span>
                   <img
                     className="w-3 md:w-4"
-                    src="/public/icon/location.png"
+                    src="/icon/location.png"
                     alt=""
                   />
                 </span>
@@ -128,12 +128,12 @@ const PropertyCard = () => {
           <div className="relative">
             <img
               className="object-cover object-center  w-full h-56"
-              src="/public/image/Property1.jpg"
+              src="/image/Property1.jpg"
               alt="image"
             />
             <button className=" absolute bottom-4 left-4 flex justify-center items-center gap-2 bg-white px-2 py-1 text-sm rounded-lg ">
               <div>
-                <img src="/public/icon/gallery.png" alt="" />
+                <img src="/icon/gallery.png" alt="" />
               </div>
               <p className="text-sm md:text-base">20</p>
             </button>
@@ -144,7 +144,7 @@ const PropertyCard = () => {
               <p className="bg-blue-100 px-2 py-1 text-sm">Apartment</p>
               <div className=" flex gap-2 items-center">
                 <span>
-                  <img src="/public/icon/rectangle.png" alt="" />
+                  <img src="/icon/rectangle.png" alt="" />
                 </span>
                 <p className="text-sm md:text-base font-semibold">
                   Ready to Move
@@ -160,7 +160,7 @@ const PropertyCard = () => {
                 <span>
                   <img
                     className="w-3 md:w-4"
-                    src="/public/icon/location.png"
+                    src="/icon/location.png"
                     alt=""
                   />
                 </span>
@@ -179,12 +179,12 @@ const PropertyCard = () => {
           <div className="relative">
             <img
               className="object-cover object-center  w-full h-56"
-              src="/public/image/Property3.jpg"
+              src="/image/Property3.jpg"
               alt="image"
             />
             <button className=" absolute bottom-4 left-4 flex justify-center items-center gap-2 bg-white px-2 py-1 text-sm rounded-lg ">
               <div>
-                <img src="/public/icon/gallery.png" alt="" />
+                <img src="/icon/gallery.png" alt="" />
               </div>
               <p className="text-sm md:text-base">20</p>
             </button>
@@ -195,7 +195,7 @@ const PropertyCard = () => {
               <p className="bg-blue-100 px-2 py-1 text-sm">Apartment</p>
               <div className=" flex gap-2 items-center">
                 <span>
-                  <img src="/public/icon/rectangle.png" alt="" />
+                  <img src="/icon/rectangle.png" alt="" />
                 </span>
                 <p className="text-sm md:text-base font-semibold">
                   Ready to Move
@@ -211,7 +211,7 @@ const PropertyCard = () => {
                 <span>
                   <img
                     className="w-3 md:w-4"
-                    src="/public/icon/location.png"
+                    src="/icon/location.png"
                     alt=""
                   />
                 </span>
@@ -230,12 +230,12 @@ const PropertyCard = () => {
           <div className="relative">
             <img
               className="object-cover object-center  w-full h-56"
-              src="/public/image/Property2.jpg"
+              src="/image/Property2.jpg"
               alt="image"
             />
             <button className=" absolute bottom-4 left-4 flex justify-center items-center gap-2 bg-white px-2 py-1 text-sm rounded-lg ">
               <div>
-                <img src="/public/icon/gallery.png" alt="" />
+                <img src="/icon/gallery.png" alt="" />
               </div>
               <p className="text-sm md:text-base">20</p>
             </button>
@@ -246,7 +246,7 @@ const PropertyCard = () => {
               <p className="bg-blue-100 px-2 py-1 text-sm">Apartment</p>
               <div className=" flex gap-2 items-center">
                 <span>
-                  <img src="/public/icon/rectangle.png" alt="" />
+                  <img src="/icon/rectangle.png" alt="" />
                 </span>
                 <p className="text-sm md:text-base font-semibold">
                   Ready to Move
@@ -262,7 +262,7 @@ const PropertyCard = () => {
                 <span>
                   <img
                     className="w-3 md:w-4"
-                    src="/public/icon/location.png"
+                    src="/icon/location.png"
                     alt=""
                   />
                 </span>

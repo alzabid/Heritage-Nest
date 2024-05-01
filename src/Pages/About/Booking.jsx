@@ -18,7 +18,7 @@ const Booking = () => {
         </button>
       </div>
       {/* image */}
-      <img className="" src="/public/image/about4.jpg" alt="" />
+      <img className="" src="/image/about4.jpg" alt="" />
     </div>
   );
 };

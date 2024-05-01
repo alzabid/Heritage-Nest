@@ -7,7 +7,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
         {/* 1 */}
         <div className="flex items-start gap-6 p-6 max-w-96 bg-blue-50 rounded-lg">
-          <img className="w-14" src="/public/icon/home2.png" alt="" />
+          <img className="w-14" src="/icon/home2.png" alt="" />
           <div>
             <h1 className="text-xl md:text-2xl font-semibold text-gray-800">
               Advanced Property Search
@@ -20,7 +20,7 @@ const Services = () => {
         </div>
         {/* 2 */}
         <div className="flex items-start gap-6 p-6 max-w-96 bg-blue-50 rounded-lg">
-          <img className="w-14" src="/public/icon/home2.png" alt="" />
+          <img className="w-14" src="/icon/home2.png" alt="" />
           <div>
             <h1 className="text-xl md:text-2xl font-semibold text-gray-800">
               Virtual Tours and Multimedia
@@ -32,7 +32,7 @@ const Services = () => {
         </div>
         {/* 3 */}
         <div className="flex items-start gap-6 p-6 max-w-96 bg-blue-50 rounded-lg">
-          <img className="w-14" src="/public/icon/home2.png" alt="" />
+          <img className="w-14" src="/icon/home2.png" alt="" />
           <div>
             <h1 className="text-xl md:text-2xl font-semibold text-gray-800">
               Secure Online Transactions

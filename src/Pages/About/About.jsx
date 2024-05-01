@@ -14,7 +14,7 @@ const About = () => {
       <div className="hero">
         <img
           className="w-full min-h-[150px] object-cover object-center"
-          src="/public/image/about.jpg"
+          src="/image/about.jpg"
           alt=""
         />
         <div className="hero-overlay bg-opacity-30"></div>

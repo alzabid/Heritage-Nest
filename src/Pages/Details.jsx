@@ -20,25 +20,25 @@ const Details = () => {
         <div className="md:max-w-[800px] min-h-11">
           {/* images */}
           <div>
-            <img src="/public/image/Property1.jpg" alt="" />
+            <img src="/image/Property1.jpg" alt="" />
             <div className="h-[80px] md:h-[160px] flex gap-4 pt-4">
               <img
                 className="w-[120px] md:w-[255px] lg:w-[280px] "
-                src="/public/image/Property2.jpg"
+                src="/image/Property2.jpg"
                 alt=""
               />
               <img
                 className="w-[120px] md:w-[255px] lg:w-[280px] "
-                src="/public/image/Property2.jpg"
+                src="/image/Property2.jpg"
                 alt=""
               />
               <div className="relative flex-1 w-[160px] md:w-[180px] overflow-hidden">
                 <img
                   className=" h-[80px] md:h-[160px] bg-black opacity-40 "
-                  src="/public/image/Property2.jpg"
+                  src="/image/Property2.jpg"
                   alt=""
                 />
-                <p className="absolute top-14 left-14 font-semibold underline">
+                <p className="absolute top-14 left-14 font-bold underline">
                   View more
                 </p>
               </div>
@@ -49,7 +49,7 @@ const Details = () => {
         </div>
 
         {/* right side */}
-        <div className="lg:max-w-[400px]">
+        <div className=" flex-none md:flex gap-5 lg:flex-col lg:max-w-[400px]">
           {/* Bid Property */}
           <BidFrom/>
           {/* map */}

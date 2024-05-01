@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer pl-10 md:pl-5 lg:pl-0 py-10 text-gray-600">
           <aside>
             <div className="flex gap-3 justify-center items-center">
-              <img className="w-8" src="/public/icon/logo.png" alt="logo" />
+              <img className="w-8" src="/icon/logo.png" alt="logo" />
               <p className="text-3xl font-bold">Heritage Nest</p>
             </div>
 
@@ -73,22 +73,22 @@ const Footer = () => {
             <p>Follow Us</p>
             <img
               className="cursor-pointer"
-              src="/public/icon/twitter.png"
+              src="/icon/twitter.png"
               alt=""
             />
             <img
               className="cursor-pointer"
-              src="/public/icon/linkedin.png"
+              src="/icon/linkedin.png"
               alt=""
             />
             <img
               className="cursor-pointer"
-              src="/public/icon/facebook.png"
+              src="/icon/facebook.png"
               alt=""
             />
             <img
               className="cursor-pointer"
-              src="/public/icon/hand.png"
+              src="/icon/hand.png"
               alt=""
             />
           </nav>

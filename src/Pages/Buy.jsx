@@ -12,7 +12,7 @@ const Buy = () => {
       </Helmet>
       <img
         className="w-full min-h-[150px] object-cover object-center mb-44"
-        src="/public/image/buy.jpg"
+        src="/image/buy.jpg"
         alt=""
       />
       <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-0">

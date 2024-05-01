@@ -14,15 +14,15 @@ const Home = () => {
         <div className="flex flex-col md:items-center lg:items-start lg:flex-row gap-20 md:gap-24 lg:gap-5 mt-10 lg:mt-20 lg:mb-36">
           {/* image */}
           <div className="relative w-9/12 md:w-full lg:w-1/2">
-            <img className="rounded-lg" src="/public/image/home1.jpg" alt="" />
+            <img className="rounded-lg" src="/image/home1.jpg" alt="" />
             <img
               className="absolute -right-20 md:right-0 top-36 md:top-72 rounded-lg w-[400px]"
-              src="/public/image/home2.jpg"
+              src="/image/home2.jpg"
               alt=""
             />
             <img
               className="absolute -right-[22px] md:right-[230px]  lg:right-[140px]  top-[128px] md:top-[262px]  w-12 md:w-16 "
-              src="/public/icon/play.png"
+              src="/icon/play.png"
               alt=""
             />
           </div>
@@ -37,13 +37,13 @@ const Home = () => {
               </h1>
               <p className="text-sm md:text-base text-[#667085] text-center md:text-start">
                 It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout. 
+                by the readable content of a page when looking at its layout.
               </p>
               <button className="mt-6 lg:mt-12 flex justify-center items-center gap-3 bg-[#ECF5FF] px-3 py-2 md:px-4 md:py-2 text-blue-700">
                 <div>
                   <img
                     className="w-4 md:w-5"
-                    src="/public/icon/Magnifer.png"
+                    src="/icon/Magnifer.png"
                     alt=""
                   />
                 </div>
@@ -58,17 +58,17 @@ const Home = () => {
           <div className="relative w-9/12 md:w-full lg:w-1/2">
             <img
               className="lg:absolute lg:top-24  rounded-lg"
-              src="/public/image/home3.jpg"
+              src="/image/home3.jpg"
               alt=""
             />
             <img
               className="absolute -right-20 md:right-0 lg:right-0 top-36 md:top-72 lg:top-0 rounded-lg w-[400px]"
-              src="/public/image/home4.jpg"
+              src="/image/home4.jpg"
               alt=""
             />
             <img
               className="absolute -right-[22px] md:right-[230px]  lg:right-[140px]  top-[128px] md:top-[262px] lg:left-[205px] lg:top-[72px]  w-12 md:w-16 "
-              src="/public/icon/play.png"
+              src="/icon/play.png"
               alt=""
             />
           </div>
@@ -83,13 +83,13 @@ const Home = () => {
               </h1>
               <p className="text-sm md:text-base text-[#667085] text-center md:text-start">
                 It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout. 
+                by the readable content of a page when looking at its layout.
               </p>
               <button className="mt-6 lg:mt-12 flex justify-center items-center gap-3 bg-[#ECF5FF] px-3 py-2 md:px-4 md:py-2 text-blue-700">
                 <div>
                   <img
                     className="w-4 md:w-5"
-                    src="/public/icon/Magnifer.png"
+                    src="/icon/Magnifer.png"
                     alt=""
                   />
                 </div>
@@ -103,15 +103,15 @@ const Home = () => {
         <div className="flex flex-col justify-cente md:items-center lg:items-start lg:flex-row gap-20 md:gap-24 lg:gap-5 mt-10 lg:mt-20 lg:mb-36">
           {/* image */}
           <div className="relative w-9/12 md:w-full lg:w-1/2">
-            <img className="rounded-lg" src="/public/image/home5.jpg" alt="" />
+            <img className="rounded-lg" src="/image/home5.jpg" alt="" />
             <img
               className="absolute -right-20 md:right-0 top-36 md:top-72 rounded-lg w-[400px]"
-              src="/public/image/home6.jpg"
+              src="/image/home6.jpg"
               alt=""
             />
             <img
               className="absolute -right-[22px] md:right-[230px]  lg:right-[140px]  top-[128px] md:top-[262px]  w-12 md:w-16 "
-              src="/public/icon/play.png"
+              src="/icon/play.png"
               alt=""
             />
           </div>
@@ -126,13 +126,13 @@ const Home = () => {
               </h1>
               <p className="text-sm md:text-base text-[#667085] text-center md:text-start">
                 It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout. 
+                by the readable content of a page when looking at its layout.
               </p>
               <button className="mt-6 lg:mt-12 flex justify-center items-center gap-3 bg-[#ECF5FF] px-3 py-2 md:px-4 md:py-2 text-blue-700">
                 <div>
                   <img
                     className="w-4 md:w-5"
-                    src="/public/icon/Magnifer.png"
+                    src="/icon/Magnifer.png"
                     alt=""
                   />
                 </div>

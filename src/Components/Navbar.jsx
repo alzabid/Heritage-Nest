@@ -36,8 +36,8 @@ const Navbar = () => {
         <Link to="/">
           <img
             className=" cursor-pointer w-8 py-2"
-            src="/public/icon/logo.png"
-            alt="EventHost"
+            src="/icon/logo.png"
+            alt=""
           />
         </Link>
 

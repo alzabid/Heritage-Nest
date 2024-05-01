@@ -8,19 +8,19 @@ const Overview = () => {
         </p>
         <div className="flex flex-wrap gap-6 md:gap-10 py-6 text-sm md:text-base">
           <div className="flex gap-2">
-            <img src="/public/icon/bed.png" alt="" />
+            <img src="/icon/bed.png" alt="" />
             <p className="font-semibold">2 Beds</p>
           </div>
           <div className="flex gap-2">
-            <img src="/public/icon/bathtub.png" alt="" />
+            <img src="/icon/bathtub.png" alt="" />
             <p className="font-semibold">2 Bath</p>
           </div>
           <div className="flex gap-2">
-            <img src="/public/icon/balcony.png" alt="" />
+            <img src="/icon/balcony.png" alt="" />
             <p className="font-semibold">2 Balcony</p>
           </div>
           <div className="flex gap-2">
-            <img src="/public/icon/shelves.png" alt="" />
+            <img src="/icon/shelves.png" alt="" />
             <p className="font-semibold">Fully Furnished</p>
           </div>
         </div>

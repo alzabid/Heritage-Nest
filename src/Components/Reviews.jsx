@@ -45,7 +45,7 @@ const Reviews = () => {
             <div className="flex flex-col justify-center items-center ">
               <div className="avatar">
                 <div className="w-10 md:w-12 lg:w-14 border-2 rounded-full border-[#D95D0F]">
-                  <img src="/public/image/review1.png" />
+                  <img src="/image/review1.png" />
                 </div>
               </div>
               <p className="text-xl lg:text-2xl font-semibold">Tony Stark</p>
@@ -92,7 +92,7 @@ const Reviews = () => {
             <div className="flex flex-col justify-center items-center ">
               <div className="avatar">
                 <div className="w-10 md:w-12 lg:w-14 border-2 rounded-full border-[#D95D0F]">
-                  <img src="/public/image/review2.png" />
+                  <img src="/image/review2.png" />
                 </div>
               </div>
               <p className="text-xl lg:text-2xl font-semibold">Tony Stark</p>
