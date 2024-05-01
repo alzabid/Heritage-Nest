@@ -19,20 +19,24 @@ const Buy = () => {
       <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-0">
         <SearchCard />
         <Cards />
-        <div className="flex justify-between">
-          <p className="text-2xl font-semibold">Popular Properties</p>
-          <p className="text-blue-500 cursor-pointer">
-            <u>See all Properties</u>
+        <div className="flex items-center justify-between">
+          <p className=" text-lg md:text-2xl font-semibold">
+            Popular Properties
+          </p>
+          <p className="text-sm md:text-base text-blue-500 underline cursor-pointer">
+            See all Properties
           </p>
         </div>
         <PropertyCard />
 
         <hr className="mt-10" />
 
-        <div className="flex justify-between pt-10">
-          <p className="text-2xl font-semibold">New Listed Properties</p>
-          <p className="text-blue-500 cursor-pointer">
-            <u>See all Properties</u>
+        <div className="flex items-center justify-between pt-10">
+          <p className=" text-lg md:text-2xl font-semibold">
+            New Listed Properties
+          </p>
+          <p className="text-sm md:text-base text-blue-500 underline cursor-pointer">
+            See all Properties
           </p>
         </div>
         <PropertyCard />

@@ -43,10 +43,12 @@ const Details = () => {
           <div className="flex-1"></div>
         </div>
         <Services />
-        <div className="flex justify-between pt-10">
-          <p className="text-2xl font-semibold">Others Nearby Properties</p>
-          <p className="text-blue-500 cursor-pointer">
-            <u>See all Properties</u>
+        <div className="flex items-center justify-between pt-10">
+          <p className=" text-lg md:text-2xl font-semibold">
+            Others Nearby Properties
+          </p>
+          <p className="text-sm md:text-base text-blue-500 underline cursor-pointer">
+            See all Properties
           </p>
         </div>
         <PropertyCard />
