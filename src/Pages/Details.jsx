@@ -8,12 +8,30 @@ import Services from "../Components/Services";
 const Details = () => {
   return (
     <div className="max-w-7xl mx-auto mt-6 px-4 md:px-6 lg:px-0">
-      {/* <div className="flex flex-col md:flex-row gap-5">
-       
-        <div className="w-[800px] border-2 min-h-11"></div>
-       
-        <div className="flex-1 border-2"></div>
-      </div> */}
+
+      <div className="md:max-w-[800px]">
+        <div className="flex md:gap-5 mb-6">
+          {/* 75% */}
+          <div className="w-9/12">
+            <h2 className=" md:text-xl font-bold">
+              3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi
+            </h2>
+
+            <div className=" flex gap-2 items-center mt-3">
+              <span>
+                <img className="w-3 md:w-4" src="/icon/location.png" alt="" />
+              </span>
+              <p className="text-sm md:text-base text-gray-500">
+                New Delhi, India
+              </p>
+            </div>
+          </div>
+          {/* 25% */}
+          <div className="flex-1">
+            <p className="md:text-2xl font-bold">$ 300000</p>
+          </div>
+        </div>
+      </div>
 
       <div className="flex flex-col lg:flex-row gap-5">
         {/* left side */}
@@ -38,26 +56,25 @@ const Details = () => {
                   src="/image/Property2.jpg"
                   alt=""
                 />
-                <p className="absolute top-14 left-14 font-bold underline">
-                  View more
+                <p className="absolute top-3 left-3  md:top-14 md:left-14 text-sm md:text-base  font-semibold cursor-pointer underline">
+                  view more
                 </p>
               </div>
             </div>
           </div>
-          
-          <Overview/>
+          <Overview />
         </div>
 
         {/* right side */}
         <div className=" flex-none md:flex gap-5 lg:flex-col lg:max-w-[400px]">
           {/* Bid Property */}
-          <BidFrom/>
+          <BidFrom />
           {/* map */}
           <Map />
         </div>
       </div>
 
-      <Amenities/>
+      <Amenities />
 
       <Services />
       <div className="flex items-center justify-between pt-10">
