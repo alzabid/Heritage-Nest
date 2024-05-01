@@ -13,7 +13,7 @@ const Booking = () => {
           each member an embodiment of expertise and warmth, dedicated to
           guiding you home, every step of the way.
         </p>
-        <button className="px-4 py-2 mt-6 md:mt-10 rounded-md text-sm lg:text-base text-white bg-[#0059B1]">
+        <button className="px-4 py-2 mt-6 md:mt-10 rounded-sm text-sm lg:text-base text-white bg-[#0059B1]">
           Booking Consultation Now
         </button>
       </div>

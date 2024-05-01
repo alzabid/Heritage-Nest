@@ -10,7 +10,6 @@ const Buy = () => {
       <Helmet>
         <title>Heritage Nest || Buy</title>
       </Helmet>
-      {/* <div className="flex"></div> */}
       <img
         className="w-full min-h-[150px] object-cover object-center mb-44"
         src="/public/image/buy.jpg"
