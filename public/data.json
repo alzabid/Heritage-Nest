@@ -1,20 +1,72 @@
 [
-  { "id": "1", "brand": "Apple", "img": "https://i.ibb.co/KNVNQ0w/Apple.jpg" },
+  {
+    "id": "1",
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
+  },
   {
     "id": "2",
-    "brand": "Samsung",
-    "img": "https://i.ibb.co/3d0Szmk/Samsung.jpg"
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
   },
   {
     "id": "3",
-    "brand": "Waltaon",
-    "img": "https://i.ibb.co/9YygJHF/Walton.jpg"
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
   },
   {
     "id": "4",
-    "brand": "Xiaomi",
-    "img": "https://i.ibb.co/YRngBmy/Xiaomi.jpg"
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
   },
-  { "id": "5", "brand": "Oppo", "img": "https://i.ibb.co/X8FsyVF/Oppo.jpg" },
-  { "id": "6", "brand": "Sony", "img": "https://i.ibb.co/TvjBzG0/Sony.jpg" }
+  {
+    "id": "5",
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
+  },
+  {
+    "id": "6",
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
+  },
+  {
+    "id": "7",
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
+  },
+  {
+    "id": "8",
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
+  },
+  {
+    "id": "9",
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
+  },
+  {
+    "id": "10",
+    "title": "3 BHK Builder Floor for Sale in Site Ram Bazar New Delhi",
+    "price": "30000",
+    "location": "New Delhi, India",
+    "img": "https://i.ibb.co/znFx3nZ/card.jpg"
+  }
 ]

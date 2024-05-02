@@ -17,21 +17,6 @@ const Navbar = () => {
               : "top-[64px] left-[-490px] duration-300"
           }`}
         >
-          {/* <li onClick={() => setOpen(!open)} className="md:my-0 my-7">
-            <Link to="/buy" className=" hover:text-green-500 duration-500">
-              Buy
-            </Link>
-          </li> */}
-          {/* <li onClick={() => setOpen(!open)} className="md:ml-8 md:my-0 my-7">
-            <Link to="/" className=" hover:text-green-500 duration-500">
-              Sell
-            </Link>
-          </li> */}
-          {/* <li onClick={() => setOpen(!open)} className="md:ml-8 md:my-0 my-7">
-            <Link to="/about" className=" hover:text-green-500 duration-500">
-              <p> </p>
-            </Link>
-          </li> */}
           <li className="md:ml-8 md:my-0 my-5">
             <Link to="/buy" className=" hover:text-green-500 duration-500">
               <p
