@@ -11,25 +11,58 @@ const Navbar = () => {
       <div className="flex items-center justify-between max-w-[1350px] mx-auto px-10">
         {/* 1st part */}
         <ul
-          className={`md:flex md:items-center absolute md:static bg-[#a0c1e7] md:bg-transparent left-0 w-full md:w-auto md:pl-0 pl-9 transition-all ease-in  ${
+          className={`md:flex md:items-center absolute md:static bg-[#a0c1e7] md:bg-transparent left-0 w-full md:w-auto px-8 md:px-0 md:pl-0  transition-all ease-in  ${
             open
               ? "top-[64px] left-0 duration-500 "
               : "top-[64px] left-[-490px] duration-300"
           }`}
         >
-          <li onClick={() => setOpen(!open)} className="md:my-0 my-7">
+          {/* <li onClick={() => setOpen(!open)} className="md:my-0 my-7">
             <Link to="/buy" className=" hover:text-green-500 duration-500">
               Buy
             </Link>
-          </li>
-          <li onClick={() => setOpen(!open)} className="md:ml-8 md:my-0 my-7">
+          </li> */}
+          {/* <li onClick={() => setOpen(!open)} className="md:ml-8 md:my-0 my-7">
             <Link to="/" className=" hover:text-green-500 duration-500">
               Sell
             </Link>
-          </li>
-          <li onClick={() => setOpen(!open)} className="md:ml-8 md:my-0 my-7">
+          </li> */}
+          {/* <li onClick={() => setOpen(!open)} className="md:ml-8 md:my-0 my-7">
             <Link to="/about" className=" hover:text-green-500 duration-500">
-              Service
+              <p> </p>
+            </Link>
+          </li> */}
+          <li className="md:ml-8 md:my-0 my-5">
+            <Link to="/buy" className=" hover:text-green-500 duration-500">
+              <p
+                onClick={() => setOpen(!open)}
+                className=" p-1 md:p-0 rounded-md"
+              >
+                Buy
+              </p>
+              <hr className="md:hidden" />
+            </Link>
+          </li>
+          <li className="md:ml-8 md:my-0 my-5">
+            <Link to="/" className=" hover:text-green-500 duration-500">
+              <p
+                onClick={() => setOpen(!open)}
+                className=" p-1 md:p-0 rounded-md"
+              >
+                Sell
+              </p>
+              <hr className="md:hidden" />
+            </Link>
+          </li>
+          <li className="md:ml-8 md:my-0 my-5">
+            <Link to="/about" className=" hover:text-green-500 duration-500">
+              <p
+                onClick={() => setOpen(!open)}
+                className=" p-1 md:p-0 rounded-md"
+              >
+                Service
+              </p>
+              <hr className="md:hidden" />
             </Link>
           </li>
         </ul>
@@ -45,20 +78,32 @@ const Navbar = () => {
 
         {/* 3rd part */}
         <ul
-          className={`md:flex md:items-center absolute md:static bg-[#a0c1e7] md:bg-transparent left-0 w-full md:w-auto md:pl-0 pl-9 transition-all  ease-in  ${
+          className={`md:flex md:items-center absolute md:static bg-[#a0c1e7] md:bg-transparent left-0 w-full md:w-auto px-8 md:px-0 md:pl-0  transition-all  ease-in  ${
             open
               ? "top-[225px] left-0 duration-500 "
               : "top-[225px] left-[-490px] duration-300"
           }`}
         >
-          <li onClick={() => setOpen(!open)} className="md:ml-8 md:my-0 my-7">
+          <li className="md:ml-8 md:my-0 my-5">
             <Link to="/" className=" hover:text-green-500 duration-500">
-              Manage Rentals
+              <p
+                onClick={() => setOpen(!open)}
+                className=" p-1 md:p-0 rounded-md"
+              >
+                Manage Rentals
+              </p>
+              <hr className="md:hidden" />
             </Link>
           </li>
-          <li onClick={() => setOpen(!open)} className="md:ml-8 md:my-0 my-7">
+          <li className="md:ml-8 md:my-0 my-5">
             <Link to="/" className=" hover:text-green-500 duration-500">
-              Sign In
+              <p
+                onClick={() => setOpen(!open)}
+                className=" p-1 md:p-0 rounded-md"
+              >
+                Sign In
+              </p>
+              <hr className="md:hidden" />
             </Link>
           </li>
         </ul>

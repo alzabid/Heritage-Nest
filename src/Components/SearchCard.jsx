@@ -49,11 +49,11 @@ const SearchCard = () => {
               />
               <select className="appearance-none relative bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm font-bold rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
                 <option></option>
-                <option>HTML</option>
-                <option>React</option>
-                <option>Vue</option>
-                <option>Angular</option>
-                <option>Svelte</option>
+                <option>Dhaka</option>
+                <option>Sylhet</option>
+                <option>Khulna</option>
+                <option>Rajshahi</option>
+                <option>chittagong</option>
               </select>
             </div>
           </div>
@@ -72,11 +72,8 @@ const SearchCard = () => {
               />
               <select className="appearance-none hover:placeholder-shown:bg-emerald-500 relative bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm font-bold rounded-md focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5">
                 <option></option>
-                <option>HTML</option>
-                <option>React</option>
-                <option>Vue</option>
-                <option>Angular</option>
-                <option>Svelte</option>
+                <option>Ready to Move</option>
+                <option>Commercial</option>
               </select>
             </div>
           </div>
@@ -95,11 +92,11 @@ const SearchCard = () => {
               />
               <select className="appearance-none hover:placeholder-shown:bg-emerald-500 relative bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm font-bold rounded-md focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5">
                 <option></option>
-                <option>HTML</option>
-                <option>React</option>
-                <option>Vue</option>
-                <option>Angular</option>
-                <option>Svelte</option>
+                <option>10k-20k</option>
+                <option>20k-30k</option>
+                <option>30k-40k</option>
+                <option>40k-50k</option>
+                <option>50k-100k</option>
               </select>
             </div>
           </div>

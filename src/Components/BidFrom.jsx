@@ -1,5 +1,9 @@
+import toast from "react-hot-toast";
+import swal from "sweetalert";
 
 const BidFrom = () => {
+  
+ 
     return (
       <div className="p-6 rounded-md bg-blue-50">
         <p className="text-lg md:text-xl text-gray-500">Property Value</p>
@@ -29,7 +33,13 @@ const BidFrom = () => {
           />
         </label>
         <div className="flex justify-center">
-          <button className="px-4 py-2 mt-6 md:mt-10 rounded-sm text-sm lg:text-base text-white bg-[#0059B1] ">
+          <button
+            onClick={() => {
+              // swal("Good job!", "You clicked the button!", "success");
+              toast.success("Thank you, Bid successfull");
+            }}
+            className="px-4 py-2 mt-6 md:mt-10 rounded-md text-sm lg:text-base text-white bg-[#0059B1] "
+          >
             Bid Property
           </button>
         </div>

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-[#ECF5FF] mt-10 md:mt-20">
+    <div className="bg-[#ECF5FF] mt-10 md:mt-20 md:px-6 lg:px-0">
       <div className="max-w-7xl mx-auto">
         <footer className="footer pl-10 md:pl-5 lg:pl-0 py-10 text-gray-600">
           <aside>
@@ -9,7 +9,7 @@ const Footer = () => {
               <p className="text-3xl font-semibold">Heritage Nest</p>
             </div>
 
-            <p>
+            <p className=" w-[80%] lg:w-[60%] md:font-semibold mt-3">
               Design amazing digital experiences that create more happy in the
               world.
             </p>
@@ -70,7 +70,7 @@ const Footer = () => {
             <p>© 2024 Heritage- Nest . All rights reserved.</p>
           </aside>
           <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-            <p>Follow Us</p>
+            <p  className="font-semibold">Follow Us</p>
             <img
               className="cursor-pointer"
               src="/icon/twitter.png"

@@ -1,7 +1,12 @@
+import { useLoaderData } from "react-router-dom";
 import PropertyCard2 from "../Components/PropertyCard2";
 import Reviews from "../Components/Reviews";
 
 const Property = () => {
+  const Properties = useLoaderData();
+  console.log(Properties);
+
+
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-0 mt-10 md:mt-20">
       <div className="flex gap-6 mb-5">
